@@ -1,0 +1,450 @@
+*{
+	margin:0;
+	padding:0;
+}
+  
+body{
+	font:30px 1.5 arial,Helvetica, sans-serif;
+	background-color:#000;
+	color:white;
+	text-align: center;
+    margin: 10px; 
+	padding:5px;
+}
+
+
+ .container{  /*  showcase */ 
+	width:80%;
+	margin:auto;
+	overflow:hidden;
+}
+
+header{     /* Restaurant management design header  */
+	background-color: black;
+    border-bottom: black;
+	min-height:90px;
+	padding:0px;
+}
+
+
+
+/* (for DROPDOWN about, menu & gallery) */
+
+
+
+
+ 
+header #branding {   /* Restaurant Web Design will turn left  */
+    float:left;
+	margin:0;
+    padding:0;
+}
+
+/*
+header #branding h1{   
+    margin:0;
+}
+*/
+	
+	
+	
+header .highlight ,.navbar .current a{   /*  Restaurant & Home will be in pink  */
+	color: pink;
+	font-weight: bold;
+}
+
+
+/* (for main nav lists home, contact, reservation, menu & gallery) */
+
+
+ .navbar{      
+	margin:0;
+	padding:0;
+	 float:right; 
+	/* padding-left:70px;   */
+	
+}
+
+
+ .navbar ul li{ 
+	float:left;
+	list-style:none;
+    position:relative;	
+/*  height:70px;
+	width:130px;
+	text-align:center;
+	opacity:0.9;
+	line-height:40px;   dropdown menu height  
+	   */
+}
+
+
+
+.navbar ul li a {   
+	text-decoration: none;
+    text-transform:uppercase; 
+	font-size:14px;
+	color:white;
+	padding:70px 10px 20px 50px;
+	display:block;
+}
+  
+.navbar ul li :hover {
+	color:pink;
+}  
+  
+  
+ .navbar ul li ul{
+	  display:inline-block;
+	  position:absolute;
+	  /* background-color:white;  */
+      padding:0px;	
+	  
+  }
+  
+ .navbar ul li:hover ul {
+	display:block;
+}
+  
+ .navbar ul li ul li{
+	 width:140px;
+ }	 
+  
+  
+  
+ .navbar ul li ul li a{
+	  padding:10px 20px;
+	  
+  } 
+  
+ .navbar ul li ul li a:hover{ 
+   background-color: grey;
+ }
+  
+  /*  
+.navbar ul ul li {
+	display:none;
+}
+
+
+ul li:hover ul li {
+	display:block;
+}
+
+*/
+
+/* nav ul li :hover > ul { 
+		display:block;
+}
+*/
+  
+ #showcase{
+	position:absolute; 
+	left:50%;
+	height:70%;
+	width:80%;
+	transform:translate(-50%,-50%);
+}
+
+
+ .slider{
+	background:url('../images/bi5.jpg');
+	background-size:cover; 
+	margin-top: 50px ;
+	height:700px;
+	animation: 20s animate infinite;
+	
+}
+
+
+
+@keyframes animate{
+	20%{
+		background:url('../images/bi7.jpg');
+		background-size:cover;
+	}
+
+	40%{
+		background:url('../images/bi6.jpg');
+		background-size:cover;
+	}
+
+}
+
+
+
+.slider h1  {
+	text-align:center;
+	font-size:55px;
+	padding:20%;
+}
+	
+
+
+ 
+ .slider p {
+	font-size:15px;
+	color:white;
+	
+
+}
+
+
+.slider .btn{
+	background-color:white ;
+	color:black;
+	border:grey;
+	margin:50px;
+	padding:10px;	
+	
+}
+
+ .slider .btn:hover{
+	color:pink;
+}
+
+
+
+
+
+
+
+
+#boxes{
+	margin-top:30px;
+}
+#Boxes .box{
+	float:left;
+	text-align:center;
+	width:30%;  /*image inline e hbe  */
+	padding:10px;
+	color:white;
+}
+/*  
+#Boxes .box img{
+	width:300px;
+}
+*/
+
+#Boxes .box h3{
+	color:#ffcccc;
+}
+	
+
+
+
+#Menu {
+	background-size:cover;
+	background-position:left;
+	background-color:grey;
+	color:white;
+	background-attachment:fixed;
+	padding-top:50px;
+	padding-bottom:50px;
+}	
+
+#Menu h1{
+	text-align:center;
+	font-size:30px;
+	color:white;
+	padding-bottom:20px;
+}	
+
+
+ /* #Menu h1::after{
+	content:'';  <!--underline-->
+	background:#efefef;
+	display:block;
+	height:3px;
+	width:170px;
+	margin:20px auto 5px;
+} */
+
+#Menu .list{
+	float:left;
+	text-align:center;
+	width:30%;  /*h3 & p gula inline e hbe  */
+	padding:35px;
+    color:black; 
+}
+
+#Menu .list p{
+	font-size:10px;
+}
+
+	/*
+.container h2{
+   text-align:center-bottom;;
+}
+*/ 
+
+#Our-Gallery{
+	text-align:center;
+	width:85%;  /*h3 & p gula inline e hbe  */
+	padding:20px;
+	display:block;
+	margin:20px 50px;
+}	
+
+#Our-Gallery h1{
+	text-align:center;
+	font-size:30px;
+	color:white;
+	padding-bottom:30px;
+}	
+
+#Our-Gallery img{
+	margin:10px 20px;
+	padding:5px 0px;
+	/* filter:grayscale(100%); */
+	transition:1s;
+	width:230px;
+
+}
+
+#Our-Gallery img:hover{
+	filter:grayscale(0);
+	transform: scale(1.1);
+}
+
+#about{
+	text-align:left;   
+	padding-top:100px;
+	padding-bottom:50px;
+	color:white;
+	font-size:30px;
+	background-size:cover;
+	background-position:center;
+	background-color:#ff6666;
+}
+ 
+ 
+ .about-content p {
+    color:white;
+	padding-top:10px;
+	font-size:15px;
+	/* padding-bottom:10px;  */
+   /* text-indent: 150px;	*/
+	
+}
+
+
+#about img{
+	text-align:right;
+	padding-left:50%;
+	
+}
+
+#about .btn{
+	margin:0px;
+    padding:12px;	
+	background-color:black;
+	color:white;
+	
+}
+
+#about .btn:hover{
+	color:pink;
+}
+
+
+
+#Contact{
+	background-size:cover;
+	background-position:left;
+	background-color:#8c7373;
+	color:white;
+	font-size:30px;
+	background-attachment:fixed;
+	padding-top:80px;
+	padding-bottom:30px;
+	display:block;
+
+}
+
+#Contact .my-form{
+	padding-bottom:10px;
+}
+
+#Contact label{
+	font-size:15px;	
+}
+
+#Contact input[type="submit"]{
+	padding:10px;
+	background-color: grey;
+}
+
+#Reservation{
+	background-size:cover;
+	background-position:left;
+	background-color:#996666;
+	color:white;
+	font-size:30px;
+	background-attachment:fixed;
+	padding-top:50px;
+	padding-bottom:10px;
+    display:block;
+
+}
+
+#Reservation label{
+	font-size:15px;
+}
+
+#Reservation .book{
+    display:block;
+	margin:20px;
+}
+
+#Reservation input[type="submit"]{
+	padding:10px;
+	font-size:15px;
+	background-color: grey;
+}
+
+#social-media-icon{
+	text-align:center;
+	list-style:none;
+	
+}
+
+#social-media-icon li{
+	    width:30px;
+		height:10px;
+		display:inline;
+		border:5px solid #000;
+		border-radius:20px;
+		padding:0 12px;
+}
+
+#social-media-icon li a{
+	line-height:50px;
+	font-size:15px;
+}
+
+
+#social-media-icon li:hover{
+	background-color:black;
+}
+
+
+footer{
+	text-align:center;
+	color:white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
