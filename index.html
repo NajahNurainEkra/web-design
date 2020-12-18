@@ -1,0 +1,345 @@
+<!--  banner Food image link
+https://www.123rf.com/stock-photo/food_banner.html?sti=mpq4i0v9ffwlaiue73| -->
+
+
+<!DOCTYPE html>
+
+<html>
+	<head>
+	    <meta charset="utf-8">
+		<meta name="viewport"content="width=device-width">
+		
+    	<title> My Website</title>	
+		<link rel ="stylesheet" type="text/css" href="css/style.css">
+		<link rel ="stylesheet" type="text/css" href = "css/lightbox.min.css">
+		<script src = "js/lightbox-plus-jquery.min.js"></script>
+		<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+	</head>
+	<body>
+	 <!-- <img src = "images/bkimage.jfif" />   -->
+	  
+       <!-- <header>
+	     <nav class="nav-header-main">
+	       <a class="header-logo"href="index.html">
+	         <img src="img/logo.png"alt="mmtuts logo">
+	       </a>
+	       <ul>
+	         <li><a href= index.php">home</a></li>
+		   </ul>
+		 </nav>
+		/*login */
+	   </header> -->
+
+
+
+	 <!-- CREATING  Header  Restaurant Management Website Design  -->
+	     
+	   <header>
+	     <div class="container">
+		    <div id="branding">
+		      <h1><span class="highlight"> Break your</span><br><em> hunger  </em> </h1>
+		    </div>
+			<div class ="navbar">
+		      <ul>
+		        <li class="current"><a href> Home </a></li>
+			    <li><a href> About us </a>   <!-- <i class="fa fa-bars" aria-hidden="true"></i></a> -->
+				   <ul>
+			         <li> <a href> Team </a></li>
+			         <li> <a href> Services </a></li>
+				   </ul>
+				</li>
+			    <li><a href> Menu </a>      <!--<i class="fa fa-bars" aria-hidden="true"></i></a>--> 
+				   <ul>
+			         <li> <a href> Menu Grid </a></li>
+				   </ul>
+                </li>
+			    <li><a href> Gallery </a>   <!--<i class="fa fa-bars" aria-hidden="true"></i></a> -->
+				   <ul>
+			         <li> <a href> Gallery_3cols </a></li>
+					 <li> <a href> Gallery_4cols </a></li>
+	               </ul>
+				</li>
+			    <li><a href> Reservation </a></li>
+			    <li><a href> Contact </a></li>		
+		      </ul>
+			</div>
+		 </div>
+	  </header> 
+	
+	
+	  <!--  CREATING SHOWCASE (ID=UNIQUE VALUE) Taste & break hunger    -->
+	
+	  <section id="showcase ">
+		 <div class="slider">
+		    <div class="container">
+		      <h1><em> Come & Taste </em></h1>
+			  <p>Welcome to our page! Come and experience new dishes </p>
+			</div> 
+			<button type="button"class ="btn btn-primary">Book Now</button>
+            
+         </div>     			
+	  </section>
+	  
+	  <!--  
+	  <section id="Heading"> 
+	     <div class="container">
+			<a class="button" href=""> Book Now</a>
+         </div>     
+	  </section>   
+	  
+	  -->
+	
+	
+	  <!-- SLIDESHOW 
+	  
+	 <section class="img-slide">
+	   <div class="content">
+	      <div class="images">
+		    <img src="images/bi5.jpg">
+			<img src="images/bi4.jpg">
+		    <img src="images/bi7.jpg">
+		    <img src="images/bi6.jpg">
+		  </div>
+		 <div onClick="side_slide(-1)class ="slide left">
+		    <span class="fas fa-angle-left"></span>
+		 </div>
+		 <div onClick="side_slide(1) class ="slide right">
+		    <span class="fas fa-angle-right"></span>
+		 </div>
+		 
+		 <div class="btm-sliders">
+		    <span onClick ="btm_slide(1)" > </span>
+		    <span onClick ="btm_slide(2)" > </span>
+		    <span onClick ="btm_slide(3)" > </span>
+		    <span onClick ="btm_slide(4)" > </span>
+         </div>
+	   </div>
+	 </section>
+	 -->
+	 
+	 
+
+	  <!--  
+	 <script>
+	    var indexValue =1;
+		showImg(indexValue);
+		function btm_slide(e){showImg(indexValue = e);}
+		function side_slide(e){showImg(indexValue+ = e);}
+		function showImg(e){
+		   var i;
+		   const img = document.querySelectorAll('img');
+		   const sliders = document.querySelectorAll('.btm-sliders span');
+		   if(e > img.length){indexValue = 1}
+		   if(e < 1){indexValue = img.length}
+		   for(i = 0; i < img.length;i++){
+		     img[i].style.display="none";
+		   }
+		   for(i = 0; i < sliders.length;i++){
+		     img[i].style.background="rgba(255,255,255,0.1)";
+		   }
+		   img[indexValue-1].style.display = "block";
+		   sliders[indexValue-1].style.background:"white";
+		}
+		     
+	 </script>
+
+	   -->    
+	  
+	  
+
+
+
+	  
+	  <!-- 3 Boxes -->
+
+	  
+	  <section id="Boxes">
+	     <div class="container">
+		    <div class="box">
+			  <img src = "./images/food.jfif" > 
+			  <h3> Food & Desserts</h3>
+			  <p> Food and desserts with different taste</p>
+			</div>     
+         
+		    <div class="box">
+			  <img src = "./images/drink.jfif" > 
+			  <h3> Drinks </h3>
+			  <p> Drinks with different flavors and taste</p>
+			</div>     
+          
+		    <div class="box">
+			  <img src = "./images/chef.jfif" > 
+			  <h3> Chef's specials </h3>
+			  <p> Some of chef's specials </p>
+			</div>     
+         </div> 		 
+	  </section>
+	  
+	  
+	  <!-- ABOUT --> 
+	  
+	  
+     <section id="about">
+	    <div class ="container">    
+	      <div class="row">
+		    <div class ="col">
+			  <div class="about-content">
+			    <h1> About Us</h1>
+		        <p> We represented various tasty & delicious
+                foods by our chefs from different cities & tried to make<br>
+                healty dishes for our customers.Enjoy your day & tasty foods with this warm envinonment. Thank you</p>
+                
+				<img src="images/about.jfif">
+		      </div>
+			  <button type="button"class ="btn btn-primary">Read more>></button> 
+		    </div>
+		    <!-- <div class ="col-md-6"></div> -->
+		  </div>
+	    </div>
+	 </section>
+		
+	  
+	  
+	  <!-- MENU -->
+	  
+       <section id="Menu">
+         <div class="container">
+            <h1>Our Menu</h1>
+		    <p> Serving various tasty and healty food in our restaurant</p>
+		 </div>
+		 <div class="container">
+		   <div class="list">
+		          <h3>Italian pasta............$87	<h3>
+		          <p> red sauce, vegetables, different flavors</p>
+		          <h3>Italian pizzasouce...........$87	<h3>
+		          <p> red chilies, origeno</p>
+		   </div>
+		   <div class="list">		
+		           <h3>Chinese burger.........$87	<h3>
+		           <p> meat,vegetables, sauces</p>
+		           <h3>Margareta causla........$87	<h3>
+		           <p>efj edenke desdnkd</p>
+		   </div>
+		   <div class="list">		
+		           <h3>Bread & butterbun.........$87<h3>
+		           <p>efj edenke desdnkd</p>
+				   <h3>Bread & butterbun.........$87<h3>
+		           <p>efj edenke desdnkd</p>
+		    </div>
+		 </div>
+	   </section>
+
+
+      <!-- GALLERY -->
+	  
+       
+	   <h1>Gallery</h1>
+         <div class="container">
+            <section id="Our-Gallery">
+			<p>Serving various tasty and healty food in our restaurant. Here some lists of available foods and desserts</p>
+	     
+		 <!--
+		    <div class ="image">
+		      <img src="https://images.app.goo.gl/nnerzYaeGrKgpfHt5">
+		      <div class="icons">
+			     <span class="icon">
+			      <a class= "nnerzYaeGrKgpfHt5" href="https://images.app.goo.gl/nnerzYaeGrKgpfHt5" title="beaf"></a>
+                </span>
+		      </div>
+		    </div>
+           -->     
+		    <a href = "images/ga2.jfif"data-lightbox="mygallery" data-title="Fire blown"><img src = "images/ga2-small.jfif"></a>
+		    <a href = "images/coffee.jpg"data-lightbox="mygallery" data-title="This is coffee"><img src ="images/coffee-small.jpg"></a>
+		    <a href = "images/ga4.jfif"data-lightbox="mygallery" data-title="Dessert"><img src ="images/ga4-small.jfif"></a>
+            <a href = "images/ga5.jfif"data-lightbox="mygallery" data-title="Dessert a Bread"><img src ="images/ga5-small.jfif"></a>
+            <a href = "images/ga3.jfif"data-lightbox="mygallery" data-title="Burger"><img src ="images/ga3-small.jfif"></a>
+			<a href = "images/pasta.jfif"data-lightbox="mygallery" data-title=" Pasta"><img src ="images/pasta-small.jfif"></a>
+		    <a href = "images/fish.jfif"data-lightbox="mygallery" data-title="Fish"><img src ="images/fish-small.jfif"></a>
+            <a href = "images/cake.jpg"data-lightbox="mygallery" data-title="Cake"><img src ="images/cake-small.jpg"></a>   
+            <a href = "images/coffee_terrine.jpg"data-lightbox="mygallery" data-title="Coffee terrine"><img src ="images/coffee_terrine-small.jpg"></a>
+	        </section>
+	    </div>
+		<!--  Reservation -->
+     		
+	  <section id ="Reservation">
+	    <div class="container">
+		    <div class="book">
+			<h1> Make a Reservation</h1>
+				  <label> Name </label>
+ 				  <input type="name "name="Name ">
+		    </div>
+            <div  class="book">
+				  <label> Email </label>
+ 				  <input type="email "name="Email ">
+		    </div>
+			
+			<div  class="book">
+				  <label> Date </label>
+ 				  <input type="date"name="Date">
+		    </div>
+			<div  class="book">
+				  <label> Time </label>
+ 				  <input type="time"name="Time">
+		    </div>
+           
+            <div  class="book">
+				  <label> Message </label>
+ 				  <textarea type="message "name="message "></textarea>
+		    </div>	
+            <div  class="book">
+ 				  <input type="submit"name="Submit">
+		    </div>			
+		</div>  
+	  </section>
+	
+
+	
+		 <!-- CONTACT -->
+		 
+	  <section id ="Contact">
+	    <div class="container">
+			<div  class="my-form">
+			<h1> Get in Touch </h1>
+				  <label> Name </label>
+ 				  <input type="text"name="Name">
+		    </div>
+		    <div  class="my-form">
+				  <label> Email </label>
+ 				  <input type="email"name="Email">
+		    </div>
+			<div  class="my-form">
+				  <label> Subject </label>
+ 				  <input type="subject "name="Subject ">
+				  <!-- <input type="text "name="Subject " placeholder="Enter your subject">  -->
+
+		    </div>
+			<div  class="my-form">
+				  <label> Message </label>
+ 				  <textarea type="message "name="Message "></textarea>
+		    </div>
+			<div  class="my-form">
+ 				  <input type="submit"name="Submit">
+		    </div>
+		</div>  
+	  </section>
+			
+		 
+	
+	  <section id="social-media-icon">
+	     <div class="container">
+	       <li><a href ="#"><span class="fab fa-facebook" aria-hidden="true"></span></a></li>
+	       <li><a href ="#"><span class="fab fa-twitter" aria-hidden="true"></a></li>
+	       <li><a href ="#"><span class="fab fa-instagram" aria-hidden="true"></a></li>
+	       <li><a href ="#"><span class="fab fa-pinterest" aria-hidden="true"></a></li>
+	       <li><a href ="#"><span class="fab fa-linkedin" aria-hidden="true"></a></li>
+	     </div> 
+      </section>		 
+	
+	</body>	 
+	
+	<footer>
+	<div class ="container">
+	    copyright @2017 copy,my website
+	</div>
+	</footer>
+</html>
